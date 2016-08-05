@@ -1,0 +1,7 @@
+# Copy this file to `docker-compose.override.yml` to start overridding  the containers. 
+# The line below will forward port 33066 on your host/local machine to the container on port 3306.
+# This is useful if you use an external MySQL GUI client and you want to connect without using the hostname
+
+mysql:
+  ports:
+    - "33066:3306"
