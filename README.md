@@ -51,7 +51,7 @@ An example command for connecting using the defaults is below. THe example has t
 mysql -hmysql.yoursite.docker -uroot -P33066 -p
 ```
 
-##PHP 7
+## PHP 7
 This setup uses PHP 7. Both PHP-FPM and PHP CLI are installed. The defaults are left intact.
 
 Composer is also installed globally in the container. Due to github API limits, you may want to setup a github personal access token for composer.
